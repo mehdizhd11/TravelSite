@@ -1,0 +1,97 @@
+@media (max-width: 1249.98px) {
+    header {
+        width: 100%;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        padding-left: 8px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .search-btn {
+        width: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .burger-btn {
+        display: block;
+        height: 100%;
+        width: 50px;
+        border: 0px solid;
+        background-color: #1EC6B6;
+    }
+
+    ul.header-menu {
+        display: none;
+    }
+
+    .show {
+        display: inline-block;
+        padding: 10px;
+        width: 100%;
+        /* border: 1px solid aqua; */
+    }
+
+    .show li {
+        width: 100%;
+        height: 50px;
+        border-bottom: 1px solid #cecece;
+        display: flex;
+        align-items: center;
+    }
+
+    .show li a {
+        color: #000000;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1199px) {
+    div.place-search {
+        height: 330px;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px 125px;
+    }
+
+    div.place-search h3 {
+        /* border: 1px solid salmon; */
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    div.place-search form {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid cyan; */
+        width: 100%;
+        height: 300px;
+        align-items: center;
+    }
+
+    div.place-search form input {
+        width: 100%;
+        height: 55px;
+        margin: 10px 0px;
+        font-size: 12px;
+    }
+
+    div.place-search form button {
+        width: 105px;
+        height: 50px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 530px) {
+    div.place-search {
+        padding: 10px 10px;
+    }
+
+    div.place-search form {
+        width: 280px;
+    }
+}
