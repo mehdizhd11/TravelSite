@@ -178,3 +178,213 @@ div.place-search form button:hover {
     background-color: #1EC6B6;
 }
 
+section.travel-options {
+    padding: 100px 50px 30px 50px;
+}
+
+section.options-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+section.options-title h3 {
+    font-size: 38px;
+    font-weight: 400;
+    color: #040E27;
+    margin: 10px;
+}
+
+section.options-title p {
+    font-size: 16px;
+    color: rgb(122, 131, 139);
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: baseline;
+    grid-gap: 25px 25px;
+}
+
+.option {
+    height: 275px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.4s;
+}
+
+.option:hover {
+    margin-top: -12px;
+}
+
+.option p {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+    transition: all 0.4s;
+}
+
+.option:hover p {
+    color: #FF4A52;
+}
+
+.option a {
+    color: #fff;
+    background-color: #1EC6B6;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 0.4s;
+}
+
+.option a:hover {
+    color: #fff !important;
+}
+
+.option:hover a {
+    background-color: #FF4A52;
+}
+
+.italy {
+    background: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url("../images/1.png") no-repeat center;
+    background-size: cover;
+}
+
+.brazil {
+    background: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url("../images/2.png") no-repeat center;
+    background-size: cover;
+}
+
+.america {
+    background: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url("../images/3.png") no-repeat center;
+    background-size: cover;
+}
+
+.nepal {
+    background: url("../images/4.png") no-repeat center;
+    background-size: cover;
+}
+
+.options>.maldives {
+    background: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url("../images/5.png") no-repeat center;
+    background-size: cover;
+}
+
+.options>.maldives~.maldives {
+    background: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url("../images/6.png") no-repeat center;
+    background-size: cover;
+}
+
+.subscribe-newsletter {
+    width: 100%;
+    height: 250px;
+    background: url("../images/newsletter.png") no-repeat center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.back-color {
+    background-color: rgba(4, 14, 39,0.7);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.subscribe-title {
+    text-align: center;
+    margin: 0px 15px;
+}
+
+div.subscribe-title h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+div.subscribe-title p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #AAB1B7;
+}
+
+.back-color form input {
+    width: 40vw;
+    height: 55px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 0px solid;
+    margin: 0px 5px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.back-color form input:focus {
+    outline: none;
+}
+
+.back-color form button {
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    background-color: #FF4A52;
+    font-size: 16px;
+}
+
+section.video {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(4, 14, 39, 0) 0%, rgba(4, 14, 39, 0.7) 100%), url("../images/video.png") no-repeat center;
+    background-size: cover;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.video h3 {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-size: 7vw;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+section.video button {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #1EC6B6;
+    border: none;
+    transition: all 0.4s;
+}
+
+section.video button i {
+    font-size: 20px;
+}
+
+section.video button:hover {
+    background-color: #FF4A52;
+}
