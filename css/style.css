@@ -372,19 +372,77 @@ section.video h3 {
 }
 
 section.video button {
-    width: 85px;
-    height: 85px;
+    width: 6vw;
+    height: 6vw;
     border-radius: 50%;
     color: #fff;
     background-color: #1EC6B6;
     border: none;
     transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section.video button i {
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 section.video button:hover {
     background-color: #FF4A52;
 }
+
+footer {
+    width: 100%;
+    height: 270px;
+    background-color: #040E27;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 20px 10px 20px;
+}
+
+div.information {
+    height: 100%;
+}
+
+div.information img {
+    width: 100%;
+}
+
+div.information ul li {
+    color: #AAB1B7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 5px 0;
+}
+
+div.popular-destinations {
+    width: 200px;
+    height: 100%;
+}
+
+div.popular-destinations h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+}
+
+div.popular-destinations ul {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+div.popular-destinations ul li {
+    color: #AAB1B7;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    width: 50%;
+    font-size: 14px;
+    line-height: 35px;
+    margin: 6px 0;
+}
+
+

@@ -144,3 +144,12 @@
         font-size: 10.5px;
     }
 }
+
+@media (max-width: 579px) {
+    footer {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 480px;
+    }
+}
